@@ -14,7 +14,13 @@ public class Apartamento {
   
      Apartamento (String numero){
          this.numero = numero;
-         this.contas = "";
+         this.contas = " ";
      }
- }
+      
+      public static void main(String[] args){
+          Apartamento x = new Apartamento("31");
+          
+      }
+}
+
   
